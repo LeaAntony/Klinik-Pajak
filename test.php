@@ -1,5 +1,4 @@
 <?php
     asdasd
-    asdasdasd
-    asd
+    asdasd
 ?>
