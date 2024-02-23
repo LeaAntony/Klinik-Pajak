@@ -6,7 +6,6 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\ListItemController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
 Use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
@@ -49,15 +48,3 @@ Route::get('/login', [LoginController::class, 'index']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/list_item', [ListItemController::class, 'index']);
 Route::get('/dashboardz', [DashboardZController::class, 'index']);
-=======
-use App\Http\Controllers\HomeController;
-
-// Route::get('/'. function () {
-//      return view('welcome');
-//  });  You, 1 Second ago. Uncomitted changes
-
-
-Route::get('/', [HomeController::class, 'index'] );
-Route::get('/contact',[HomeController::class, 'contact']);
-   
->>>>>>> ee6d7a546df556303d86e4f1303efeeb84da0eb1
