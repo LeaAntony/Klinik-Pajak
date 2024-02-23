@@ -1,3 +1,3 @@
 <?php
-    oasdn ganteng 123
+    oasdn
 ?>

@@ -1,4 +1,3 @@
 <?php
     asdasd
-    asdasd
 ?>
