@@ -20,7 +20,7 @@ class ListBarangFadliController extends Controller
     }
     public function tampilkan(){
         $data = $this-> getData();
-        return view('list_barang', compact('data'));
+        return view('list_barang_fadli', compact('data'));
     }
 }
 

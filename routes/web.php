@@ -1,9 +1,13 @@
 <?php
 
+use App\Http\Controllers\AController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardZController;
 use App\Http\Controllers\ListBarangController;
+use App\Http\Controllers\ListBarangFadliController;
 use App\Http\Controllers\ListBarangLController;
+use App\Http\Controllers\ListBarangLopezController;
+use App\Http\Controllers\ListBarangVController;
 use App\Http\Controllers\ListItemController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
