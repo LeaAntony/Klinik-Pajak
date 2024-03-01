@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardZController;
 use App\Http\Controllers\ListBarangController;
+use App\Http\Controllers\ListBarangLController;
 use App\Http\Controllers\ListItemController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
@@ -48,3 +49,8 @@ Route::get('/login', [LoginController::class, 'index']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/list_item', [ListItemController::class, 'index']);
 Route::get('/dashboardz', [DashboardZController::class, 'index']);
+Route::get('/list_barang_l', [ListBarangLController::class, 'tampilkan']);
+Route::get('/list_barang_lopez', [ListBarangLopezController::class, 'tampilkan']);
+Route::get('/list_barang_fadli', [ListBarangFadliController::class, 'tampilkan']);
+Route::get('/list_barang_v_view', [ListBarangVController::class, 'tampilkan']);
+Route::get('/Aulia', [AController::class, 'tampilkan']);
