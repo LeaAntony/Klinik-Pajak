@@ -2,30 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login | Sudut Pajak</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-    <form action="action_page.php" method="post">
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            
+    <div class="container">
+        <div class="login">
+            <form action="" method="POST">
+                <h1>Login</h1>
+                <hr>
+                <p>Selamat Datang </p>
+                <label for="">Username</label>
+                <input type="text" name="username" placeholder="Masukan Username Anda">
+                <label for="">Password</label>
+                <input type="password" name="password" placeholder="Masukan Kata Sandi Anda">
+                    <p style="background-color: white; color:red"></p>
+                <button type="submit">Login</button>
+                <p>Belum Punya Akun?</p>
+                <p><a href="#">Daftar Sekarang</a></p>
+            </form>
         </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="submit">Masuk</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-            <br>
-            <button type="reset" class="cancelbtn">Batal</button>
-            <span class="psw"><a href="#">Lupa password?</a></span>
+        <div class="right">
+            <img src="images/2.png" alt="">
         </div>
-    </form>
+    </div>
 </body>
 </html>
