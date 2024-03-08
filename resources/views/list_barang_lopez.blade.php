@@ -1,10 +1,18 @@
-<html>
-    <table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+<table class="m-10 border-collapse border border-slate-400 bg-blue-50">
         <thead>
             <tr>
-                <th>ID</th>
-                <th>Nama</th>
-                <th>Harga</th>
+                <th class="border border-slate-300">ID</th>
+                <th class="border border-slate-300">Nama</th>
+                <th class="border border-slate-300">Harga</th>
             </tr>
         </thead>
         <tbody>
@@ -17,4 +25,5 @@
             @endforeach
         </tbody>
     </table>
+</body>
 </html>
